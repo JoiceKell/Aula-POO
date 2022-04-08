@@ -3,18 +3,6 @@ public class Pessoa{
 	int cpf = 0;				//Variáveis globais
 	String nome = "";
 
-	public static void main(String avg[]){
-
-		Pessoa p1 = new Pessoa();
-
-		p1.setCpf(1234);
-		p1.setNome("Um");
-	
-		
-		System.out.println("\nCPF...: "+p1.getCpf());
-		System.out.println("\nNOME...: "+p1.getNome());
-	}
-
 	public int getCpf(){
 		return cpf;
 	}
