@@ -3,10 +3,18 @@ public class Pessoa{
 		int cpf = 0;
 		String nome = "";
 
-		cpf = 10;
-		nome = "Jesus";
+		cpf = entCpf();
+		nome = entNome();
 
 		System.out.println("\nCPF...: "+cpf);
 		System.out.println("\nNOME...: "+nome);
 	}
+	public static int entCpf(){
+		return 16;
+	}
+
+	public static String entNome(){
+		return "Emanuel";
+	}
+
 }
