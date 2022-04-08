@@ -8,6 +8,8 @@ public class Pessoa{
 		Pessoa p1; 	 	//p1 é um endereço de memória - Objeto
 		p1 = new Pessoa(); //Método Construtor -- > Informa ao SO as dimensões de p1
 
+		System.out.println("\nP1...: "+p1);
+
 		p1.entCpf();
 
 		System.gc();
@@ -19,6 +21,7 @@ public class Pessoa{
 
 	public void entCpf(){
 		Pessoa p11 = new Pessoa();
+		System.out.println("\nP1...: "+p11);
 		cpf = 74;
 	}
 
