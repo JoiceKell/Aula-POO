@@ -7,17 +7,21 @@ public class Pessoa{
 
 		entCpf();
 		entNome();
+		impDados();
 
-		System.out.println("\nCPF...: "+cpf);
-		System.out.println("\nNOME...: "+nome);
 	}
 
 	public static void entCpf(){
-		cpf = 78;
+		cpf = 75;
 	}
 
 	public static void entNome(){
-		nome = "Joice Kelly";
+		nome = "Joice";
+	}
+
+	public static void impDados(){
+		System.out.println("\nCPF...: "+cpf);
+		System.out.println("\nNOME...: "+nome);
 	}
 
 }
