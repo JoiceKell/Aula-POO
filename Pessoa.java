@@ -1,7 +1,7 @@
 public class Pessoa{
 
-	int cpf = 0;				//Variáveis globais
-	String nome = "";
+	private int cpf = 0;				//Variáveis globais
+	private String nome = "";
 
 	public int getCpf(){
 		return cpf;
