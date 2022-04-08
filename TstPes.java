@@ -4,8 +4,8 @@ public class TstPes{
 
 		Pessoa p1 = new Pessoa();
 
-		p1.setCpf(1);
-		p1.setNome("Elohin");
+		p1.setCpf(-10);
+		p1.setNome("Dez");
 	
 		
 		System.out.println("\nCPF...: "+p1.getCpf());

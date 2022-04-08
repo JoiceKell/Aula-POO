@@ -7,12 +7,17 @@ public class Pessoa{
 		return cpf;
 	}
 
-	public void setCpf(int cpf){
-		this.cpf = cpf;
-	}
-
 	public String getNome(){
 		return nome;
+	}
+
+	public void setCpf(int cpf){
+		if(cpf > 0){
+			this.cpf = cpf;
+		} else {
+			System.out.println("\nCPF deve ser positivo!");
+			this.cpf = 1501;
+		}
 	}
 
 	public void setNome(String nome){
