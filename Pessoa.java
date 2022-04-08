@@ -5,33 +5,30 @@ public class Pessoa{
 
 	public static void main(String avg[]){
 
-		Pessoa p1; 	 	//p1 é um endereço de memória - Objeto
-		p1 = new Pessoa(); //Método Construtor -- > Informa ao SO as dimensões de p1
+		Pessoa p1 = new Pessoa();
 
-		System.out.println("\nP1...: "+p1);
-
-		p1.entCpf();
-
-		System.gc();
-
-		p1.entNome();
-		p1.impDados();
-
+		p1.setCpf(123);
+		p1.setNome("Alguem");
+	
+		
+		System.out.println("\nCPF...: "+p1.getCpf());
+		System.out.println("\nNOME...: "+p1.getNome());
 	}
 
-	public void entCpf(){
-		Pessoa p11 = new Pessoa();
-		System.out.println("\nP1...: "+p11);
-		cpf = 74;
+	public int getCpf(){
+		return cpf;
 	}
 
-	public void entNome(){
-		nome = "Solange";
+	public void setCpf(int cpf2){
+		cpf = cpf2;
 	}
 
-	public void impDados(){
-		System.out.println("\nCPF...: "+cpf);
-		System.out.println("\nNOME...: "+nome);
+	public String getNome(){
+		return nome;
+	}
+
+	public void setNome(String nome2){
+		nome = nome2;
 	}
 
 }
