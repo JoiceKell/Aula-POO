@@ -9,17 +9,21 @@ public class Pessoa{
 		p1 = new Pessoa(); //Método Construtor -- > Informa ao SO as dimensões de p1
 
 		p1.entCpf();
+
+		System.gc();
+
 		p1.entNome();
 		p1.impDados();
 
 	}
 
 	public void entCpf(){
-		cpf = 85;
+		Pessoa p11 = new Pessoa();
+		cpf = 74;
 	}
 
 	public void entNome(){
-		nome = "Larissa";
+		nome = "Solange";
 	}
 
 	public void impDados(){
