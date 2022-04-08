@@ -4,6 +4,7 @@ public class TstPesErro1{
 
 		Leitura l = new Leitura();
 		Pessoa p1 = new Pessoa();
+
 		Endereco e = new Endereco();
 	
 		p1.setCpf(Integer.parseInt(l.entDados("\nInforme o CPF: ")));
@@ -12,10 +13,12 @@ public class TstPesErro1{
 		e.setRua(l.entDados("Informe a RUA: "));
 		e.setNum(Integer.parseInt(l.entDados("Informe o NUM da casa: ")));
 
+		p1.setEnder(e);
+
 		System.out.println("\nCPF...: "+p1.getCpf());
 		System.out.println("NOME...: "+p1.getNome());
-		System.out.println("E - RUA...: "+e.getRua());
-		System.out.println("E - NUMERO...: "+e.getNum());
+		System.out.println("E - RUA...: "+p1.getEnder().getRua());
+		System.out.println("E - NUMERO...: "+p1.getEnder().getNum());
 	}
 
 }
