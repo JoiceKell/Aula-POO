@@ -4,7 +4,7 @@ public class TstPes{
 
 		Pessoa p1 = new Pessoa();
 
-		p1.setCpf(-10);
+		p1.cpf = -10;
 		p1.setNome("Dez");
 	
 		
