@@ -7,8 +7,8 @@ public class Pessoa{
 
 		Pessoa p1 = new Pessoa();
 
-		p1.setCpf(123);
-		p1.setNome("Alguem");
+		p1.setCpf(1234);
+		p1.setNome("Um");
 	
 		
 		System.out.println("\nCPF...: "+p1.getCpf());
@@ -19,16 +19,16 @@ public class Pessoa{
 		return cpf;
 	}
 
-	public void setCpf(int cpf2){
-		cpf = cpf2;
+	public void setCpf(int cpf){
+		this.cpf = cpf;
 	}
 
 	public String getNome(){
 		return nome;
 	}
 
-	public void setNome(String nome2){
-		nome = nome2;
+	public void setNome(String nome){
+		this.nome = nome;
 	}
 
 }
