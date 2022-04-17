@@ -25,6 +25,15 @@ public class Pessoa{
 		this.ender = dados;
 	}
 
+
+	public void impDados(){
+		System.out.println("\nMetodo impDados DEFAULT da classe Pessoa");
+	}
+
+	public void impDados(int valor){
+		System.out.println("\nMetodo impDados SOBRECARGA1 da classe Pessoa "+valor);
+	}
+
 //=============================================
 
 
