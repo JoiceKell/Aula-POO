@@ -32,6 +32,12 @@ public class TstPes{
 		System.out.println("RUA - P1...: "+p1.getEnder().getRua());
 		System.out.println("NUMERO - P1...: "+p1.getEnder().getNum());
 	
+		System.out.println("\nCPF - P1...: "+p1.getCpf());
+		System.out.println("NOME - P1...: "+p1.getNome());
+		System.out.println("RUA - P1...: "+p1.getEnder().getRua());
+
+		System.out.println("\n\nEndereco de P1 : "+p1);
+		System.out.println("Endereco de P2 : "+p2);
 	}
 
 }
