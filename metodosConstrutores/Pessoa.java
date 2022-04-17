@@ -10,7 +10,7 @@ public class Pessoa{
 	public Pessoa(){   //Método construtor não tem tipo e tem o mesmo nome da classe
 		cpf = 10;
 		nome = "Joice";
-		ender = new Endereco();
+		//ender = new Endereco();
 	} 
 
 	public Pessoa(int cpf, String nome, Endereco ender){  //Assinatura
