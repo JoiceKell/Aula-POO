@@ -1,9 +1,8 @@
 public class Pessoa{
 
-	private int cpf = 0;		
-	private String nome = "";
-	
-	private Endereco ender = new Endereco();
+	private int cpf;		
+	private String nome;
+	private Endereco ender;
 
 
 //============================================
@@ -12,6 +11,18 @@ public class Pessoa{
 		cpf = 10;
 		nome = "Joice";
 		ender = new Endereco();
+	} 
+
+	public Pessoa(int cpf, String nome, Endereco ender){  //Assinatura
+		this.cpf = cpf;
+		this.nome = nome;
+		this.ender = ender;
+	}
+
+	public Pessoa(int doc, Endereco dados, String apelido){
+		this.cpf = doc;
+		this.nome = apelido;
+		this.ender = dados;
 	}
 
 //=============================================

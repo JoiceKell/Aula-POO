@@ -2,7 +2,7 @@ public class TstPes{
 
 	public static void main(String avg[]){
 
-		Pessoa p1 = new Pessoa();
+		Pessoa p1 = new Pessoa(16, "El Shadai", new Endereco());
 
 		System.out.println("\nCPF...: "+p1.getCpf());
 		System.out.println("NOME...: "+p1.getNome());
