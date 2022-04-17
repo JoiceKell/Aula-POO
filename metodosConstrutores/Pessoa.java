@@ -19,21 +19,10 @@ public class Pessoa{
 		this.ender = ender;
 	}
 
-	public Pessoa(int doc, Endereco dados, String apelido){
-		this.cpf = doc;
-		this.nome = apelido;
-		this.ender = dados;
-	}
-
-
-	public int impDados(){
-		System.out.println("\nMetodo impDados DEFAULT da classe Pessoa");
-		return 0;
-	}
-
-	public String impDados(int valor){
-		System.out.println("\nMetodo impDados SOBRECARGA1 da classe Pessoa "+valor);
-		return "";
+	public Pessoa(Pessoa p){       //Pessoa p2 = new Pessoa(p1) Clone, mas com endereçamento diferente
+		this.cpf = p.getCpf();
+		this.nome = p.getNome();
+		this.ender = p.getEnder();
 	}
 
 //=============================================
