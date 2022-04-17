@@ -4,7 +4,9 @@ public class TstPes{
 
 		Leitura l = new Leitura();
 		Pessoa p1 = new Pessoa();
-	
+
+		System.out.println("\nCPF...: "+p1.getCpf());
+		System.out.println("NOME...: "+p1.getNome());
 	}
 
 }

@@ -9,7 +9,9 @@ public class Pessoa{
 //============================================
 
 	public Pessoa(){   //Método construtor não tem tipo e tem o mesmo nome da classe
-		System.out.println("\nMetodo Construtor default da classe Pessoa");
+		cpf = 10;
+		nome = "Joice";
+		ender = new Endereco();
 	}
 
 //=============================================
