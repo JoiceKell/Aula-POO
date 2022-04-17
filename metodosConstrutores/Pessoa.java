@@ -26,12 +26,14 @@ public class Pessoa{
 	}
 
 
-	public void impDados(){
+	public int impDados(){
 		System.out.println("\nMetodo impDados DEFAULT da classe Pessoa");
+		return 0;
 	}
 
-	public void impDados(int valor){
+	public String impDados(int valor){
 		System.out.println("\nMetodo impDados SOBRECARGA1 da classe Pessoa "+valor);
+		return "";
 	}
 
 //=============================================

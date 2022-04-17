@@ -7,7 +7,7 @@ public class TstPes{
 		System.out.println("\nCPF...: "+p1.getCpf());
 		System.out.println("NOME...: "+p1.getNome());
 
-		p1.impDados(70);
+		String x = p1.impDados(25);
 	}
 
 }
