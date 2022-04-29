@@ -35,6 +35,7 @@ public class TstHer{
 		System.out.println("ALUNO - NUMERO...: "+aluno.getEnder().getNum());
 		System.out.println("ALUNO - RA...: "+aluno.getRa());
 		System.out.println("ALUNO - CURSO...: "+aluno.getCurso());
+
 		
 	}
 
